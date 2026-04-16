@@ -1,0 +1,21 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Dynamically generated data files
+data/train_final.csv
+data/test_final.csv
+data/cardio_processed.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
