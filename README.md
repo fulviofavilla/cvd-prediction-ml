@@ -33,6 +33,8 @@ The project uses a publicly available medical dataset comprising 70,000 patient 
 
 Target variable: `cardio` — presence (1) or absence (0) of cardiovascular disease.
 
+**Getting the data:** the dataset is not included in this repository. Download the [Cardiovascular Disease dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset) from Kaggle and place the CSV at `data/cardio_raw.csv` before running the pipeline.
+
 ---
 
 ## Project Architecture
@@ -127,7 +129,7 @@ pip install -r requirements.txt
 
 **2. Run the preprocessing pipeline:**
 
-Reads `data/cardio_raw.csv` and generates the clean train/test split.
+Reads `data/cardio_raw.csv` (see [About the Dataset](#about-the-dataset) for the download step) and generates the clean train/test split.
 
 ```bash
 python src_python/preprocess_data.py
